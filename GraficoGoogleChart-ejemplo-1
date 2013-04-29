@@ -21,7 +21,7 @@
        title: 'Nuestro primer ejemplo con Google Charts'
      }
      // Dibujar el gráfico
-     new google.visualization.LineChart(
+     new google.visualization.ColumnChart(
        document.getElementById('GraficoGoogleChart-ejemplo-1')
      ).draw(data, options);
    }
@@ -29,4 +29,4 @@
 <body>
 Comenzando con Google Charts....
 </body>
-</html>
+</html>  	
